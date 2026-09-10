@@ -12,7 +12,7 @@
 | |___| | | |  __/ (__|   <  __/ |   
  \____|_| |_|\___|\___|_|\_\___|_|   v1.0
 
-             by Ali Burhan | [https://github.com/ab-ratul](https://github.com/ab-ratul)
+             by Ali Burhan | https://github.com/ab-ratul
 
 ---------------------------------------------------------
  GATEKEEPER REQUIREMENTS:
@@ -20,6 +20,7 @@
  - Mandatory: A-Z, a-z, 0-9, @%$#&... (Symbols)
  - Status: Must not be found in known data breaches
 =========================================================
+```
 
 # Enterprise Password Gatekeeper and Breach Checker
 
