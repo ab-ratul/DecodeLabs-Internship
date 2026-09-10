@@ -26,7 +26,7 @@
 
 ## Overview and Purpose
 
-This project is a defensive cybersecurity tool designed to evaluate password strength and securely cross-reference inputs against known data breaches. It was built to fulfill the Project 1 requirements for the DecodeLabs Industrial Training Kit, functioning as a strict validation gatekeeper before cryptographic hashing.
+This project is a defensive cybersecurity tool designed to evaluate password strength and securely cross-reference inputs against known data breaches. It was built to fulfill the Project 1 requirements for the DecodeLabs Industrial Training Kit, functioning as a strict validation gatekeeper before cryptographic hashing. Main project with version updates can be found at https://github.com/ab-ratul/password-checker.
 
 * **Validates Entropy:** Enforces mandatory password requirements—including length, uppercase, numbers, and symbols—to establish a strong digital foundation.
 
@@ -57,12 +57,17 @@ The codebase is engineered with professional cybersecurity principles, ensuring 
 
 This program requires Python 3.x and the standard `requests` library to interface with the live threat intelligence API.
 
-* **Clone the Repository:** Download the project environment by running `git clone https://github.com/ab-ratul/DecodeLabs-Internship/tree/main/Project1` in your local terminal.
-* **Install Dependencies:** Execute `pip install requests` to enable the secure external HTTP calls required for the breach database.
+* **Clone the Repository:** Download the project environment by running `git clone https://github.com/ab-ratul/password-checker.git` in your local terminal.
+* **Install Dependencies:** Go to the tool directory by typing `cd password-checker`. Execute `pip install requests` to enable the secure external HTTP calls required for the breach database.
 * **Launch the Script:** Run the interactive terminal loop by executing `python pc.py`. Enter strings at the prompt to receive real-time strength classifications and vulnerability alerts.
 
 
 ## Requirements:
 
-Internet connection is required to check for the live data breach.
+Internet connection is required to check for the live data breach. Otherwise it will only check for password strength.
+
+
+## Disclaimer:
+
+This tool is intended for free and safe use. Only 5 character of SHA1 hash is shared with breached databases at pwnedpasswords.com to check whether the password was leaked in a known data breach.
 
