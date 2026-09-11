@@ -12,7 +12,7 @@ CrypTool by Ali Burhan | https://github.com/ab-ratul
 ```
 **An Interactive Cryptographic Engine & Vulnerability Scanner**
 
-Built by **Ali Burhan** | Main project is at [github.com/ab-ratul/cryptool](github.com/ab-ratul/cryptoo)
+Built by **Ali Burhan** | Main project with version update can be found at http://github.com/ab-ratul/cryptool
 
 CrypTool is a Python-based command-line interface (CLI) application designed to demonstrate the fundamental mechanics of data confidentiality. Developed as part of the DecodeLabs Industrial Training Kit (Project 2: Basic Encryption & Decryption), this tool transforms static text into secure ciphertext using mathematical obfuscation and actively audits its own security through automated brute-force scanning.
 
