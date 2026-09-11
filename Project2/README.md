@@ -91,11 +91,14 @@ Ctrl + C: Instantly safely terminate the application from anywhere.
 Ctrl + B + Enter: Abort the current operation and immediately return to the main menu banner.
 
 ### Example Workflow: Testing the Scanner
-Select Option 1 and encrypt the phrase: Security architecture is critical with a shift of 5.
+Select Option 1 and encrypt the phrase:
+
+```bash
+Security architecture is critical with a shift of 5
+```
 
 Copy the resulting ciphertext.
 
-Select Option 5 and paste the ciphertext.
+Select Option 5 and paste the ciphertext. Press enter!
 
-Watch as the tool brute-forces 25 keys, identifies the english words, isolates the correct payload, and writes the compromise to your local log file.
-
+Watch as the tool brute-forces 25 keys, identifies the english words, isolates the correct payload, and writes the compromise to your local log file. The log file is saved in the same folder as `compromised_data.txt`
